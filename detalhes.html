@@ -19,30 +19,25 @@
 <body>
     <header class="topo">
         <section class="topo__logo">
-            <a href="index.html"><img class="topo__logo--imagem" src="img/logo 1.png" alt="Logo Ti Verde"></a>
+            <a href="index.html" class="topo__logo-link"><img class="topo__logo--imagem" src="img/logo 1.png" alt="Logo Ti Verde"></a>
+            <input id="menu-toggle" type="checkbox" />
             
+            <label class='menu-button-container' for="menu-toggle">
+                <img src="img/toggle_button.svg" alt="">
+            </label>
 
-            <div class="toggle"> 
-                <input id="menu-toggle" type="checkbox" />
-                <label class='menu-button-container' for="menu-toggle">
-                    <img src="img/toggle_button.svg" alt="">
-                </label>
-
-            </div>
-            
-          </label>
+            <nav class="topo__nav">
+                <ul class="dropdown">
+                    <li class="topo__nav--item"><a class="topo__nav--item-link" href="detalhes.html">Menu</a></li>
+                    <li class="topo__nav--item"><a class="topo__nav--item-link" href="detalhes.html">Menu</a></li>
+                    <li class="topo__nav--item"><a class="topo__nav--item-link" href="detalhes.html">Menu</a></li>
+                    <li class="topo__nav--item"><a class="topo__nav--item-link" href="detalhes.html">Menu</a></li>
+                    <li class="topo__nav--item"><a class="topo__nav--item-link" href="detalhes.html">Menu</a></li>
+                </ul>
+            </nav>
 
         </section>
-        
-        <nav class="topo__nav">
-            <ul>
-                <li class="topo__nav--item"><a class="topo__nav--item-link" href="detalhes.html">Menu</a></li>
-                <li class="topo__nav--item"><a class="topo__nav--item-link" href="detalhes.html">Menu</a></li>
-                <li class="topo__nav--item"><a class="topo__nav--item-link" href="detalhes.html">Menu</a></li>
-                <li class="topo__nav--item"><a class="topo__nav--item-link" href="detalhes.html">Menu</a></li>
-                <li class="topo__nav--item"><a class="topo__nav--item-link" href="detalhes.html">Menu</a></li>
-            </ul>
-        </nav>
+
     </header>
     
     <main>
