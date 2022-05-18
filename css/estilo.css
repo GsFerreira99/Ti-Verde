@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 :root {
     --verde-fundo: #53AF31;
     --verde-conteudo: #7AC843;
@@ -241,13 +243,16 @@ main {
     font-weight: 700;
     font-size: 2rem;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .assunto__img{
     width: 100%;
     margin-bottom: 2rem;
 }
-
+.bold{
+    font-weight: 700;
+}
 .assunto__texto p {
     text-align: justify;
     font-weight: 500;
@@ -280,22 +285,26 @@ main {
 
 .item{
     width: 48%;
+    text-decoration: none;
+    font: var(--raleway);
 }
 
 .item img{
     width: 100%;
     border-radius: 10px;
+    height: 95%;
 }
 
 .item p{
     position: relative;
-    top: -40px;
+    bottom: 35px;
     left: 10px;
     color: var(--branco);
     font-weight: 700;
     font-size: 80%;
     width: 80%;
 }
+
 
 #p1, #p2, #p3, #emp1, #emp2, #emp3, #emp4, .d1,.d2,.d3,.d4,.d5,.d6,.d7 {
     display: none;
@@ -357,6 +366,16 @@ main {
 
 .praticas .conteudo__texto{
     text-align: justify;
+}
+
+.ol{
+    list-style-type: decimal;
+    margin-left: 2rem;
+}
+
+.ul{
+    list-style-type: square;
+    margin-left: 2rem;
 }
 
 
@@ -449,6 +468,22 @@ main {
 
     .verde .conteudo__imagem{
         order: 1;
+    }
+    .content3{
+        flex-wrap: wrap;
+    }
+    
+    .content3 img{
+        width: 40%;
+        margin-bottom: 2rem;
+    }
+    
+    .content3 div{
+        width: 55%;
+    }
+    
+    .content3 div:nth-child(3){
+        width: 100%;
     }
 
 }
